@@ -1,0 +1,9 @@
+none 0.0: worst-family macro-F1=0.9576
+noise 0.05: worst-family macro-F1=0.0000
+noise 0.1: worst-family macro-F1=0.0000
+blur 0.8: worst-family macro-F1=0.9274
+blur 1.3: worst-family macro-F1=0.7414
+contrast 0.75: worst-family macro-F1=0.0000
+contrast 0.5: worst-family macro-F1=0.0022
+
+# subprocess exit code: 0; wall_seconds: 14.63

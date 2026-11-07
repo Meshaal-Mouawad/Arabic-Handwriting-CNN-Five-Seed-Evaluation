@@ -1,0 +1,14 @@
+{
+  "release": "IJDAR-CNN-2026-10-28-R1",
+  "manuscript_title": "Family Balancing and Hierarchical CNNs for Arabic Handwritten Symbols: A Controlled Five-Seed Evaluation",
+  "author": "Meshaal Mouawad",
+  "email": "mm4922@msstate.edu",
+  "affiliation": "Department of Electrical and Computer Engineering, Mississippi State University",
+  "raw_input_archive": "CNN_Arabic_38Class_Study_2026-20261027T193849Z-1-001.zip",
+  "raw_input_archive_sha256": "abf9199ad424de39ecadc73a28477292468f04909fe1fa88e9950e778e5a63c9",
+  "frozen_code_archive_sha256": "93458f9ea7692e53990f03b6a021cec76ecd5de2d6cbbe431af064530b96b513",
+  "experimental_data_changed": false,
+  "record_format": "journal supplementary ZIP, Online Resource 3",
+  "large_image_arrays": "reconstruct from upstream sources; partition assignments, source hashes and selected checkpoints included",
+  "public_repository_doi": null
+}

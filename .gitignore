@@ -1,0 +1,17 @@
+# Downloaded third-party data and regenerated datasets
+*.npz
+*.csv.zip
+*upstream*.zip
+__pycache__/
+.ipynb_checkpoints/
+.DS_Store
+*.pyc
+*.log.tmp
+
+.DS_Store
+.env
+.env.*
+*.pem
+*.key
+__pycache__/
+.ipynb_checkpoints/

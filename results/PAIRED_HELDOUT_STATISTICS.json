@@ -1,0 +1,1567 @@
+{
+  "evaluation_label": "HELD-OUT TEST STATISTICS; run only after complete real-image evaluation",
+  "seeds": [
+    7,
+    17,
+    29,
+    43,
+    61
+  ],
+  "bootstrap_replicates": 500,
+  "contrasts": {
+    "H1_flat_balance": {
+      "method": "B1_flat_balanced",
+      "control": "B0_flat_ce",
+      "clean_worst_family_F1_difference": {
+        "mean": 0.002115984675951399,
+        "sd": 0.007793497869396203,
+        "ci_95": [
+          -0.0075609210485556265,
+          0.011792890400458424
+        ],
+        "n_seeds": 5,
+        "per_seed_differences": [
+          0.0033385678437225508,
+          -0.0014332927626863334,
+          -0.00934190660608647,
+          0.007874327683030646,
+          0.0101422272217766
+        ],
+        "interpretation": "Student-t descriptive interval over 5 paired training seeds; not a preregistered significance test"
+      },
+      "condition_F1_differences": {
+        "none_0.0": {
+          "mean": 0.002115984675951399,
+          "sd": 0.007793497869396203,
+          "ci_95": [
+            -0.0075609210485556265,
+            0.011792890400458424
+          ],
+          "n_seeds": 5,
+          "per_seed_differences": [
+            0.0033385678437225508,
+            -0.0014332927626863334,
+            -0.00934190660608647,
+            0.007874327683030646,
+            0.0101422272217766
+          ],
+          "interpretation": "Student-t descriptive interval over 5 paired training seeds; not a preregistered significance test"
+        },
+        "noise_0.05": {
+          "mean": 0.0038394577208883097,
+          "sd": 0.010536183622939664,
+          "ci_95": [
+            -0.009242942162179999,
+            0.01692185760395662
+          ],
+          "n_seeds": 5,
+          "per_seed_differences": [
+            0.01630446242315209,
+            -0.00882489459956674,
+            0.013117823455052309,
+            0.0,
+            -0.0014001026741961077
+          ],
+          "interpretation": "Student-t descriptive interval over 5 paired training seeds; not a preregistered significance test"
+        },
+        "noise_0.1": {
+          "mean": 0.0017511739347519841,
+          "sd": 0.0024913971611152603,
+          "ci_95": [
+            -0.001342304225431903,
+            0.004844652094935871
+          ],
+          "n_seeds": 5,
+          "per_seed_differences": [
+            0.0053341417011337445,
+            0.0,
+            0.0034217279726261765,
+            0.0,
+            0.0
+          ],
+          "interpretation": "Student-t descriptive interval over 5 paired training seeds; not a preregistered significance test"
+        },
+        "blur_0.8": {
+          "mean": 0.028860250613091498,
+          "sd": 0.061485673635140674,
+          "ci_95": [
+            -0.04748429674496918,
+            0.10520479797115218
+          ],
+          "n_seeds": 5,
+          "per_seed_differences": [
+            0.1302469027040657,
+            -0.026305488711063085,
+            0.007490293584855978,
+            0.039172188693310406,
+            -0.0063026432057115
+          ],
+          "interpretation": "Student-t descriptive interval over 5 paired training seeds; not a preregistered significance test"
+        },
+        "blur_1.3": {
+          "mean": 0.12069396426169476,
+          "sd": 0.21814298555239328,
+          "ci_95": [
+            -0.15016632735939633,
+            0.39155425588278586
+          ],
+          "n_seeds": 5,
+          "per_seed_differences": [
+            0.46681509629109064,
+            0.030403565806714994,
+            0.0036313702839970707,
+            0.19106200589644173,
+            -0.08844221696977062
+          ],
+          "interpretation": "Student-t descriptive interval over 5 paired training seeds; not a preregistered significance test"
+        },
+        "contrast_0.75": {
+          "mean": 0.027143711089857032,
+          "sd": 0.08855908393330898,
+          "ci_95": [
+            -0.08281691514403833,
+            0.1371043373237524
+          ],
+          "n_seeds": 5,
+          "per_seed_differences": [
+            0.004579817992226751,
+            0.01173957756011755,
+            -0.05769545582598829,
+            0.1776706525892886,
+            -0.000576036866359447
+          ],
+          "interpretation": "Student-t descriptive interval over 5 paired training seeds; not a preregistered significance test"
+        },
+        "contrast_0.5": {
+          "mean": -0.00041730705713971154,
+          "sd": 0.0009331269472547839,
+          "ci_95": [
+            -0.0015759371932997617,
+            0.0007413230790203386
+          ],
+          "n_seeds": 5,
+          "per_seed_differences": [
+            0.0,
+            0.0,
+            -0.0020865352856985577,
+            0.0,
+            0.0
+          ],
+          "interpretation": "Student-t descriptive interval over 5 paired training seeds; not a preregistered significance test"
+        }
+      },
+      "retention_differences": {
+        "noise_0.05": {
+          "mean": 0.0017234730449368963,
+          "sd": 0.01506293707733624,
+          "ci_95": [
+            -0.016979633631200173,
+            0.020426579721073968
+          ],
+          "n_seeds": 5,
+          "per_seed_differences": [
+            0.012965894579429538,
+            -0.007391601836880479,
+            0.022459730061138772,
+            -0.007874327683030646,
+            -0.011542329895972703
+          ],
+          "interpretation": "Student-t descriptive interval over 5 paired training seeds; not a preregistered significance test"
+        },
+        "noise_0.1": {
+          "mean": -0.00036481074119940613,
+          "sd": 0.009126217534064679,
+          "ci_95": [
+            -0.011696506493023473,
+            0.010966885010624662
+          ],
+          "n_seeds": 5,
+          "per_seed_differences": [
+            0.001995573857411226,
+            0.0014332927626863334,
+            0.012763634578712657,
+            -0.007874327683030646,
+            -0.0101422272217766
+          ],
+          "interpretation": "Student-t descriptive interval over 5 paired training seeds; not a preregistered significance test"
+        },
+        "blur_0.8": {
+          "mean": 0.026744265937140098,
+          "sd": 0.06058338389401978,
+          "ci_95": [
+            -0.04847994073342216,
+            0.10196847260770237
+          ],
+          "n_seeds": 5,
+          "per_seed_differences": [
+            0.12690833486034314,
+            -0.024872195948376752,
+            0.016832200190942448,
+            0.03129786101027976,
+            -0.0164448704274881
+          ],
+          "interpretation": "Student-t descriptive interval over 5 paired training seeds; not a preregistered significance test"
+        },
+        "blur_1.3": {
+          "mean": 0.11857797958574338,
+          "sd": 0.21735070495115177,
+          "ci_95": [
+            -0.1512985657363109,
+            0.3884545249077977
+          ],
+          "n_seeds": 5,
+          "per_seed_differences": [
+            0.46347652844736814,
+            0.03183685856940133,
+            0.01297327689008354,
+            0.1831876782134111,
+            -0.09858444419154722
+          ],
+          "interpretation": "Student-t descriptive interval over 5 paired training seeds; not a preregistered significance test"
+        },
+        "contrast_0.75": {
+          "mean": 0.025027726413905604,
+          "sd": 0.08415293908432735,
+          "ci_95": [
+            -0.07946194839013829,
+            0.1295174012179495
+          ],
+          "n_seeds": 5,
+          "per_seed_differences": [
+            0.0012412501485041805,
+            0.013172870322803787,
+            -0.04835354921990187,
+            0.16979632490625796,
+            -0.010718264088136031
+          ],
+          "interpretation": "Student-t descriptive interval over 5 paired training seeds; not a preregistered significance test"
+        },
+        "contrast_0.5": {
+          "mean": -0.0025332917330911143,
+          "sd": 0.0070466791973341,
+          "ci_95": [
+            -0.01128289959931228,
+            0.006216316133130052
+          ],
+          "n_seeds": 5,
+          "per_seed_differences": [
+            -0.0033385678437225508,
+            0.0014332927626863334,
+            0.007255371320387893,
+            -0.007874327683030646,
+            -0.0101422272217766
+          ],
+          "interpretation": "Student-t descriptive interval over 5 paired training seeds; not a preregistered significance test"
+        }
+      },
+      "bootstrap_first_seed_only": {
+        "seed": 7,
+        "paired_image_level_CI": {
+          "none_0.0": [
+            -0.002461862906612333,
+            0.009172442108074575
+          ],
+          "noise_0.05": [
+            0.010845695209825855,
+            0.021723660489794756
+          ],
+          "noise_0.1": [
+            0.0026546700786700883,
+            0.008087333386337025
+          ],
+          "blur_0.8": [
+            0.1195416948349516,
+            0.1429198554541613
+          ],
+          "blur_1.3": [
+            0.4519713151943206,
+            0.48089709449175855
+          ],
+          "contrast_0.75": [
+            0.0022380542183792827,
+            0.006931714573480182
+          ],
+          "contrast_0.5": [
+            0.0,
+            0.0
+          ]
+        },
+        "paired_retention_CI": {
+          "noise_0.05": [
+            0.0051524038185251754,
+            0.02041168005314916
+          ],
+          "noise_0.1": [
+            -0.004023792275807172,
+            0.00831237659693752
+          ],
+          "blur_0.8": [
+            0.1155354422129617,
+            0.13973641904996847
+          ],
+          "blur_1.3": [
+            0.4470563172477581,
+            0.47849070300583385
+          ],
+          "contrast_0.75": [
+            -0.005013120523924444,
+            0.00772951322519793
+          ],
+          "contrast_0.5": [
+            -0.009172442108074576,
+            0.0024618629066123316
+          ]
+        },
+        "resampling_unit": "images stratified by true class",
+        "warning": "Image bootstrap ignores within-writer dependence when writer IDs are unavailable"
+      }
+    },
+    "H2_hierarchy_CE": {
+      "method": "B2_hier_ce",
+      "control": "B0_flat_ce",
+      "clean_worst_family_F1_difference": {
+        "mean": 0.0005353764099975677,
+        "sd": 0.011461113470817278,
+        "ci_95": [
+          -0.013695475566044462,
+          0.014766228386039597
+        ],
+        "n_seeds": 5,
+        "per_seed_differences": [
+          -0.007661492346496601,
+          -0.007005899359316836,
+          -0.004030599437839899,
+          0.02002532187152195,
+          0.0013495513221192246
+        ],
+        "interpretation": "Student-t descriptive interval over 5 paired training seeds; not a preregistered significance test"
+      },
+      "condition_F1_differences": {
+        "none_0.0": {
+          "mean": 0.0005353764099975677,
+          "sd": 0.011461113470817278,
+          "ci_95": [
+            -0.013695475566044462,
+            0.014766228386039597
+          ],
+          "n_seeds": 5,
+          "per_seed_differences": [
+            -0.007661492346496601,
+            -0.007005899359316836,
+            -0.004030599437839899,
+            0.02002532187152195,
+            0.0013495513221192246
+          ],
+          "interpretation": "Student-t descriptive interval over 5 paired training seeds; not a preregistered significance test"
+        },
+        "noise_0.05": {
+          "mean": -0.006202419596878999,
+          "sd": 0.005701167269339003,
+          "ci_95": [
+            -0.013281353742954916,
+            0.0008765145491969172
+          ],
+          "n_seeds": 5,
+          "per_seed_differences": [
+            -0.008263813187209148,
+            -0.014155465886267432,
+            -0.007192716236722306,
+            0.0,
+            -0.0014001026741961077
+          ],
+          "interpretation": "Student-t descriptive interval over 5 paired training seeds; not a preregistered significance test"
+        },
+        "noise_0.1": {
+          "mean": -3.996003996003996e-05,
+          "sd": 8.935336573425733e-05,
+          "ci_95": [
+            -0.00015090689731060133,
+            7.098681739052143e-05
+          ],
+          "n_seeds": 5,
+          "per_seed_differences": [
+            -0.0001998001998001998,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "interpretation": "Student-t descriptive interval over 5 paired training seeds; not a preregistered significance test"
+        },
+        "blur_0.8": {
+          "mean": -0.020667284466110814,
+          "sd": 0.10699869172556034,
+          "ci_95": [
+            -0.15352370783664235,
+            0.11218913890442071
+          ],
+          "n_seeds": 5,
+          "per_seed_differences": [
+            0.11878991400777517,
+            -0.1665691616555005,
+            -0.025637499425451016,
+            0.03488672300896878,
+            -0.06480639826634649
+          ],
+          "interpretation": "Student-t descriptive interval over 5 paired training seeds; not a preregistered significance test"
+        },
+        "blur_1.3": {
+          "mean": 0.07769511542326976,
+          "sd": 0.37225245608310054,
+          "ci_95": [
+            -0.38451735753804483,
+            0.5399075883845844
+          ],
+          "n_seeds": 5,
+          "per_seed_differences": [
+            0.7098340648666632,
+            -0.027091226644540223,
+            -0.2460019473602374,
+            0.07123546273760317,
+            -0.11950077648313995
+          ],
+          "interpretation": "Student-t descriptive interval over 5 paired training seeds; not a preregistered significance test"
+        },
+        "contrast_0.75": {
+          "mean": 0.05239726165086912,
+          "sd": 0.1457187705312189,
+          "ci_95": [
+            -0.12853648958026131,
+            0.2333310128819996
+          ],
+          "n_seeds": 5,
+          "per_seed_differences": [
+            0.0,
+            0.011718020636283452,
+            -0.05769545582598829,
+            0.30853978031040985,
+            -0.000576036866359447
+          ],
+          "interpretation": "Student-t descriptive interval over 5 paired training seeds; not a preregistered significance test"
+        },
+        "contrast_0.5": {
+          "mean": 0.00021474484621317728,
+          "sd": 0.0015768286940292928,
+          "ci_95": [
+            -0.001743146574497658,
+            0.0021726362669240128
+          ],
+          "n_seeds": 5,
+          "per_seed_differences": [
+            0.0022239007040674185,
+            0.0009363588126970254,
+            -0.0020865352856985577,
+            0.0,
+            0.0
+          ],
+          "interpretation": "Student-t descriptive interval over 5 paired training seeds; not a preregistered significance test"
+        }
+      },
+      "retention_differences": {
+        "noise_0.05": {
+          "mean": -0.006737796006876584,
+          "sd": 0.007795234322557637,
+          "ci_95": [
+            -0.01641685782275873,
+            0.00294126580900556
+          ],
+          "n_seeds": 5,
+          "per_seed_differences": [
+            -0.0006023208407125447,
+            -0.007149566526950646,
+            -0.003162116798882453,
+            -0.02002532187152195,
+            -0.0027496539963153266
+          ],
+          "interpretation": "Student-t descriptive interval over 5 paired training seeds; not a preregistered significance test"
+        },
+        "noise_0.1": {
+          "mean": -0.0005753364499575975,
+          "sd": 0.011425683262163174,
+          "ci_95": [
+            -0.014762196011464977,
+            0.01361152311154978
+          ],
+          "n_seeds": 5,
+          "per_seed_differences": [
+            0.0074616921466964525,
+            0.007005899359316836,
+            0.004030599437839899,
+            -0.02002532187152195,
+            -0.0013495513221192246
+          ],
+          "interpretation": "Student-t descriptive interval over 5 paired training seeds; not a preregistered significance test"
+        },
+        "blur_0.8": {
+          "mean": -0.021202660876108382,
+          "sd": 0.10519857144851344,
+          "ci_95": [
+            -0.15182393970619418,
+            0.1094186179539774
+          ],
+          "n_seeds": 5,
+          "per_seed_differences": [
+            0.12645140635427177,
+            -0.15956326229618367,
+            -0.021606899987611117,
+            0.014861401137446828,
+            -0.06615594958846571
+          ],
+          "interpretation": "Student-t descriptive interval over 5 paired training seeds; not a preregistered significance test"
+        },
+        "blur_1.3": {
+          "mean": 0.0771597390132722,
+          "sd": 0.3745706147855636,
+          "ci_95": [
+            -0.3879311081510135,
+            0.542250586177558
+          ],
+          "n_seeds": 5,
+          "per_seed_differences": [
+            0.7174955572131598,
+            -0.020085327285223387,
+            -0.2419713479223975,
+            0.05121014086608122,
+            -0.12085032780525917
+          ],
+          "interpretation": "Student-t descriptive interval over 5 paired training seeds; not a preregistered significance test"
+        },
+        "contrast_0.75": {
+          "mean": 0.05186188524087152,
+          "sd": 0.1351713961703875,
+          "ci_95": [
+            -0.11597557097083713,
+            0.21969934145258016
+          ],
+          "n_seeds": 5,
+          "per_seed_differences": [
+            0.007661492346496601,
+            0.01872391999560019,
+            -0.05366485638814844,
+            0.2885144584388879,
+            -0.0019255881884786552
+          ],
+          "interpretation": "Student-t descriptive interval over 5 paired training seeds; not a preregistered significance test"
+        },
+        "contrast_0.5": {
+          "mean": -0.0003206315637843904,
+          "sd": 0.011904837545020476,
+          "ci_95": [
+            -0.015102439747900829,
+            0.014461176620332047
+          ],
+          "n_seeds": 5,
+          "per_seed_differences": [
+            0.009885393050564018,
+            0.007942258172013883,
+            0.0019440641521413227,
+            -0.02002532187152195,
+            -0.0013495513221192246
+          ],
+          "interpretation": "Student-t descriptive interval over 5 paired training seeds; not a preregistered significance test"
+        }
+      },
+      "bootstrap_first_seed_only": {
+        "seed": 7,
+        "paired_image_level_CI": {
+          "none_0.0": [
+            -0.014327715879122549,
+            -0.0016572099515955675
+          ],
+          "noise_0.05": [
+            -0.012146973014956824,
+            -0.004573272804504835
+          ],
+          "noise_0.1": [
+            -0.0006180745386281049,
+            0.0
+          ],
+          "blur_0.8": [
+            0.10925182962818193,
+            0.1315194293976479
+          ],
+          "blur_1.3": [
+            0.695150389260925,
+            0.7239946015887266
+          ],
+          "contrast_0.75": [
+            0.0,
+            0.0
+          ],
+          "contrast_0.5": [
+            0.0004926108374384236,
+            0.0043619414255587075
+          ]
+        },
+        "paired_retention_CI": {
+          "noise_0.05": [
+            -0.007836542383002007,
+            0.007194031321678878
+          ],
+          "noise_0.1": [
+            0.0012454831713421268,
+            0.014137450975701992
+          ],
+          "blur_0.8": [
+            0.1161342874918742,
+            0.1397268883122106
+          ],
+          "blur_1.3": [
+            0.7024924733555448,
+            0.732311379179554
+          ],
+          "contrast_0.75": [
+            0.0016572099515955647,
+            0.014327715879122545
+          ],
+          "contrast_0.5": [
+            0.003594618311241968,
+            0.0171666243308292
+          ]
+        },
+        "resampling_unit": "images stratified by true class",
+        "warning": "Image bootstrap ignores within-writer dependence when writer IDs are unavailable"
+      }
+    },
+    "H2_hierarchy_balanced": {
+      "method": "B3_hier_balanced",
+      "control": "B1_flat_balanced",
+      "clean_worst_family_F1_difference": {
+        "mean": -0.0005250790949474116,
+        "sd": 0.00970406871952088,
+        "ci_95": [
+          -0.012574271860071812,
+          0.011524113670176988
+        ],
+        "n_seeds": 5,
+        "per_seed_differences": [
+          -0.0005260367859714066,
+          0.00012097113451425834,
+          -0.012868733343334271,
+          0.014140789642879348,
+          -0.0034923861228249864
+        ],
+        "interpretation": "Student-t descriptive interval over 5 paired training seeds; not a preregistered significance test"
+      },
+      "condition_F1_differences": {
+        "none_0.0": {
+          "mean": -0.0005250790949474116,
+          "sd": 0.00970406871952088,
+          "ci_95": [
+            -0.012574271860071812,
+            0.011524113670176988
+          ],
+          "n_seeds": 5,
+          "per_seed_differences": [
+            -0.0005260367859714066,
+            0.00012097113451425834,
+            -0.012868733343334271,
+            0.014140789642879348,
+            -0.0034923861228249864
+          ],
+          "interpretation": "Student-t descriptive interval over 5 paired training seeds; not a preregistered significance test"
+        },
+        "noise_0.05": {
+          "mean": 0.0033506607778334046,
+          "sd": 0.017595158350066524,
+          "ci_95": [
+            -0.018496613888138582,
+            0.02519793544380539
+          ],
+          "n_seeds": 5,
+          "per_seed_differences": [
+            0.033649782090030556,
+            -0.005330571286700692,
+            -0.011565906914162842,
+            0.0,
+            0.0
+          ],
+          "interpretation": "Student-t descriptive interval over 5 paired training seeds; not a preregistered significance test"
+        },
+        "noise_0.1": {
+          "mean": -0.0017911339747120243,
+          "sd": 0.002563782883978593,
+          "ci_95": [
+            -0.004974490880959267,
+            0.0013922229315352188
+          ],
+          "n_seeds": 5,
+          "per_seed_differences": [
+            -0.005533941900933944,
+            0.0,
+            -0.0034217279726261765,
+            0.0,
+            0.0
+          ],
+          "interpretation": "Student-t descriptive interval over 5 paired training seeds; not a preregistered significance test"
+        },
+        "blur_0.8": {
+          "mean": -0.04970050095901746,
+          "sd": 0.07523645177605245,
+          "ci_95": [
+            -0.1431188944819356,
+            0.0437178925639007
+          ],
+          "n_seeds": 5,
+          "per_seed_differences": [
+            -0.021642379934863842,
+            -0.08238613327300448,
+            -0.16505140776716165,
+            -0.001611793624707314,
+            0.02218920980465
+          ],
+          "interpretation": "Student-t descriptive interval over 5 paired training seeds; not a preregistered significance test"
+        },
+        "blur_1.3": {
+          "mean": -0.15888220624360166,
+          "sd": 0.25904174791196993,
+          "ci_95": [
+            -0.48052501865767044,
+            0.16276060617046711
+          ],
+          "n_seeds": 5,
+          "per_seed_differences": [
+            0.12580754131033262,
+            -0.5327830879502675,
+            -0.22848043103807325,
+            -0.20216874039725363,
+            0.043213686857253464
+          ],
+          "interpretation": "Student-t descriptive interval over 5 paired training seeds; not a preregistered significance test"
+        },
+        "contrast_0.75": {
+          "mean": 0.020554037291445438,
+          "sd": 0.03684562747063687,
+          "ci_95": [
+            -0.02519585183007207,
+            0.06630392641296294
+          ],
+          "n_seeds": 5,
+          "per_seed_differences": [
+            -0.004579817992226751,
+            -0.012649794410607092,
+            0.051006140343576555,
+            0.06899365851648448,
+            0.0
+          ],
+          "interpretation": "Student-t descriptive interval over 5 paired training seeds; not a preregistered significance test"
+        },
+        "contrast_0.5": {
+          "mean": 0.0008906639346153283,
+          "sd": 0.0011968075456458072,
+          "ci_95": [
+            -0.0005953689075916814,
+            0.002376696776822338
+          ],
+          "n_seeds": 5,
+          "per_seed_differences": [
+            0.0,
+            0.0006364292078577794,
+            0.0009068375551659513,
+            0.0029100529100529104,
+            0.0
+          ],
+          "interpretation": "Student-t descriptive interval over 5 paired training seeds; not a preregistered significance test"
+        }
+      },
+      "retention_differences": {
+        "noise_0.05": {
+          "mean": 0.0038757398727808034,
+          "sd": 0.018278779787419448,
+          "ci_95": [
+            -0.018820362920352624,
+            0.02657184266591423
+          ],
+          "n_seeds": 5,
+          "per_seed_differences": [
+            0.03417581887600196,
+            -0.005451542421214928,
+            0.0013028264291713443,
+            -0.014140789642879348,
+            0.0034923861228249864
+          ],
+          "interpretation": "Student-t descriptive interval over 5 paired training seeds; not a preregistered significance test"
+        },
+        "noise_0.1": {
+          "mean": -0.001266054879764611,
+          "sd": 0.008923058274664386,
+          "ci_95": [
+            -0.012345495093289595,
+            0.009813385333760373
+          ],
+          "n_seeds": 5,
+          "per_seed_differences": [
+            -0.005007905114962519,
+            -0.00012097113451425834,
+            0.009447005370708084,
+            -0.014140789642879348,
+            0.0034923861228249864
+          ],
+          "interpretation": "Student-t descriptive interval over 5 paired training seeds; not a preregistered significance test"
+        },
+        "blur_0.8": {
+          "mean": -0.04917542186407005,
+          "sd": 0.0693351755819542,
+          "ci_95": [
+            -0.13526641319331945,
+            0.03691556946517936
+          ],
+          "n_seeds": 5,
+          "per_seed_differences": [
+            -0.021116343148892436,
+            -0.08250710440751874,
+            -0.15218267442382738,
+            -0.01575258326758666,
+            0.025681595927474987
+          ],
+          "interpretation": "Student-t descriptive interval over 5 paired training seeds; not a preregistered significance test"
+        },
+        "blur_1.3": {
+          "mean": -0.15835712714865424,
+          "sd": 0.25981805401664615,
+          "ci_95": [
+            -0.48096385090448524,
+            0.16424959660717675
+          ],
+          "n_seeds": 5,
+          "per_seed_differences": [
+            0.12633357809630402,
+            -0.5329040590847818,
+            -0.21561169769473898,
+            -0.21630953004013298,
+            0.04670607298007845
+          ],
+          "interpretation": "Student-t descriptive interval over 5 paired training seeds; not a preregistered significance test"
+        },
+        "contrast_0.75": {
+          "mean": 0.02107911638639286,
+          "sd": 0.035563019168568175,
+          "ci_95": [
+            -0.02307820418264869,
+            0.06523643695543441
+          ],
+          "n_seeds": 5,
+          "per_seed_differences": [
+            -0.004053781206255325,
+            -0.012770765545121243,
+            0.0638748736869108,
+            0.054852868873605076,
+            0.0034923861228249864
+          ],
+          "interpretation": "Student-t descriptive interval over 5 paired training seeds; not a preregistered significance test"
+        },
+        "contrast_0.5": {
+          "mean": 0.0014157430295627326,
+          "sd": 0.008924871596686392,
+          "ci_95": [
+            -0.009665948720634126,
+            0.012497434779759592
+          ],
+          "n_seeds": 5,
+          "per_seed_differences": [
+            0.0005260367859714066,
+            0.0005154580733435221,
+            0.013775570898500233,
+            -0.011230736732826485,
+            0.0034923861228249864
+          ],
+          "interpretation": "Student-t descriptive interval over 5 paired training seeds; not a preregistered significance test"
+        }
+      },
+      "bootstrap_first_seed_only": {
+        "seed": 7,
+        "paired_image_level_CI": {
+          "none_0.0": [
+            -0.006021972257036648,
+            0.004582343069014565
+          ],
+          "noise_0.05": [
+            0.024436050379075917,
+            0.04331776212442916
+          ],
+          "noise_0.1": [
+            -0.008261066215051035,
+            -0.002765005646879601
+          ],
+          "blur_0.8": [
+            -0.0296706918360677,
+            -0.014038455084322178
+          ],
+          "blur_1.3": [
+            0.10993394346499491,
+            0.14313883830146015
+          ],
+          "contrast_0.75": [
+            -0.006931714573480183,
+            -0.002238054218379284
+          ],
+          "contrast_0.5": [
+            0.0,
+            0.0
+          ]
+        },
+        "paired_retention_CI": {
+          "noise_0.05": [
+            0.023814778220060624,
+            0.04495485931352602
+          ],
+          "noise_0.1": [
+            -0.01066777923278083,
+            0.001232821277675492
+          ],
+          "blur_0.8": [
+            -0.029917350894901443,
+            -0.012512878210341968
+          ],
+          "blur_1.3": [
+            0.1092126719947765,
+            0.1452717205716417
+          ],
+          "contrast_0.75": [
+            -0.009601593330905892,
+            0.0014940698926297331
+          ],
+          "contrast_0.5": [
+            -0.004582343069014568,
+            0.006021972257036647
+          ]
+        },
+        "resampling_unit": "images stratified by true class",
+        "warning": "Image bootstrap ignores within-writer dependence when writer IDs are unavailable"
+      }
+    },
+    "H3_smooth_worst": {
+      "method": "P_hier_smooth_worst",
+      "control": "B3_hier_balanced",
+      "clean_worst_family_F1_difference": {
+        "mean": -0.0002415275695022645,
+        "sd": 0.011224315596487965,
+        "ci_95": [
+          -0.014178356150138407,
+          0.013695301011133877
+        ],
+        "n_seeds": 5,
+        "per_seed_differences": [
+          -0.005892238744934275,
+          -0.00523198357615462,
+          0.016643863856404928,
+          -0.011804440680836858,
+          0.005077161298009503
+        ],
+        "interpretation": "Student-t descriptive interval over 5 paired training seeds; not a preregistered significance test"
+      },
+      "condition_F1_differences": {
+        "none_0.0": {
+          "mean": -0.0002415275695022645,
+          "sd": 0.011224315596487965,
+          "ci_95": [
+            -0.014178356150138407,
+            0.013695301011133877
+          ],
+          "n_seeds": 5,
+          "per_seed_differences": [
+            -0.005892238744934275,
+            -0.00523198357615462,
+            0.016643863856404928,
+            -0.011804440680836858,
+            0.005077161298009503
+          ],
+          "interpretation": "Student-t descriptive interval over 5 paired training seeds; not a preregistered significance test"
+        },
+        "noise_0.05": {
+          "mean": -0.012611897970698293,
+          "sd": 0.023618173349520506,
+          "ci_95": [
+            -0.04193773352213357,
+            0.016713937580736984
+          ],
+          "n_seeds": 5,
+          "per_seed_differences": [
+            -0.05431485707587969,
+            0.0,
+            -0.008744632777611774,
+            0.0,
+            0.0
+          ],
+          "interpretation": "Student-t descriptive interval over 5 paired training seeds; not a preregistered significance test"
+        },
+        "noise_0.1": {
+          "mean": 0.0,
+          "sd": 0.0,
+          "ci_95": [
+            0.0,
+            0.0
+          ],
+          "n_seeds": 5,
+          "per_seed_differences": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "interpretation": "Student-t descriptive interval over 5 paired training seeds; not a preregistered significance test"
+        },
+        "blur_0.8": {
+          "mean": -0.0512279778449789,
+          "sd": 0.1627498487280741,
+          "ci_95": [
+            -0.2533086057237376,
+            0.15085265003377976
+          ],
+          "n_seeds": 5,
+          "per_seed_differences": [
+            -0.017393180985006418,
+            -0.3023540219952605,
+            0.14707473518795933,
+            -0.07517561034889275,
+            -0.008291811083694145
+          ],
+          "interpretation": "Student-t descriptive interval over 5 paired training seeds; not a preregistered significance test"
+        },
+        "blur_1.3": {
+          "mean": -0.07010705778956786,
+          "sd": 0.22126678224511556,
+          "ci_95": [
+            -0.3448460553017202,
+            0.2046319397225845
+          ],
+          "n_seeds": 5,
+          "per_seed_differences": [
+            -0.36852721721067266,
+            0.16237322020713688,
+            0.1222092605858559,
+            -0.19559782947275905,
+            -0.07099272305740034
+          ],
+          "interpretation": "Student-t descriptive interval over 5 paired training seeds; not a preregistered significance test"
+        },
+        "contrast_0.75": {
+          "mean": -0.05746903754687591,
+          "sd": 0.17222716068152696,
+          "ci_95": [
+            -0.2713173024779832,
+            0.15637922738423138
+          ],
+          "n_seeds": 5,
+          "per_seed_differences": [
+            0.0,
+            -0.0019569471624266144,
+            0.07460196495019303,
+            -0.35999020552214595,
+            0.0
+          ],
+          "interpretation": "Student-t descriptive interval over 5 paired training seeds; not a preregistered significance test"
+        },
+        "contrast_0.5": {
+          "mean": -0.00011324739074050402,
+          "sd": 0.0016802306763473902,
+          "ci_95": [
+            -0.0021995293302386233,
+            0.001973034548757615
+          ],
+          "n_seeds": 5,
+          "per_seed_differences": [
+            0.0,
+            0.0009057493764222802,
+            0.0014380665799281103,
+            -0.0029100529100529104,
+            0.0
+          ],
+          "interpretation": "Student-t descriptive interval over 5 paired training seeds; not a preregistered significance test"
+        }
+      },
+      "retention_differences": {
+        "noise_0.05": {
+          "mean": -0.012370370401196018,
+          "sd": 0.024579928024815827,
+          "ci_95": [
+            -0.04289038210804965,
+            0.01814964130565761
+          ],
+          "n_seeds": 5,
+          "per_seed_differences": [
+            -0.04842261833094541,
+            0.00523198357615462,
+            -0.025388496634016655,
+            0.011804440680836858,
+            -0.005077161298009503
+          ],
+          "interpretation": "Student-t descriptive interval over 5 paired training seeds; not a preregistered significance test"
+        },
+        "noise_0.1": {
+          "mean": 0.0002415275695022645,
+          "sd": 0.011224315596487965,
+          "ci_95": [
+            -0.013695301011133877,
+            0.014178356150138407
+          ],
+          "n_seeds": 5,
+          "per_seed_differences": [
+            0.005892238744934275,
+            0.00523198357615462,
+            -0.016643863856404928,
+            0.011804440680836858,
+            -0.005077161298009503
+          ],
+          "interpretation": "Student-t descriptive interval over 5 paired training seeds; not a preregistered significance test"
+        },
+        "blur_0.8": {
+          "mean": -0.05098645027547664,
+          "sd": 0.155420826783458,
+          "ci_95": [
+            -0.24396689546356015,
+            0.1419939949126069
+          ],
+          "n_seeds": 5,
+          "per_seed_differences": [
+            -0.011500942240072143,
+            -0.2971220384191059,
+            0.1304308713315544,
+            -0.0633711696680559,
+            -0.013368972381703648
+          ],
+          "interpretation": "Student-t descriptive interval over 5 paired training seeds; not a preregistered significance test"
+        },
+        "blur_1.3": {
+          "mean": -0.06986553022006559,
+          "sd": 0.2155808203630028,
+          "ci_95": [
+            -0.33754447356803957,
+            0.1978134131279084
+          ],
+          "n_seeds": 5,
+          "per_seed_differences": [
+            -0.36263497846573833,
+            0.16760520378329147,
+            0.10556539672945098,
+            -0.1837933887919222,
+            -0.07606988435540984
+          ],
+          "interpretation": "Student-t descriptive interval over 5 paired training seeds; not a preregistered significance test"
+        },
+        "contrast_0.75": {
+          "mean": -0.05722750997737362,
+          "sd": 0.1645362807538642,
+          "ci_95": [
+            -0.26152628618779405,
+            0.14707126623304684
+          ],
+          "n_seeds": 5,
+          "per_seed_differences": [
+            0.005892238744934275,
+            0.0032750364137279497,
+            0.057958101093788184,
+            -0.34818576484130903,
+            -0.005077161298009503
+          ],
+          "interpretation": "Student-t descriptive interval over 5 paired training seeds; not a preregistered significance test"
+        },
+        "contrast_0.5": {
+          "mean": 0.00012828017876176379,
+          "sd": 0.010104602115861935,
+          "ci_95": [
+            -0.012418240484677604,
+            0.012674800842201132
+          ],
+          "n_seeds": 5,
+          "per_seed_differences": [
+            0.005892238744934275,
+            0.006137732952576913,
+            -0.015205797276476862,
+            0.008894387770783996,
+            -0.005077161298009503
+          ],
+          "interpretation": "Student-t descriptive interval over 5 paired training seeds; not a preregistered significance test"
+        },
+        "H3_prespecified_mean_across_6_corruptions": {
+          "mean": -0.031680008854307974,
+          "sd": 0.05138187598410476,
+          "ci_95": [
+            -0.0954790344239416,
+            0.03211901671532564
+          ],
+          "n_seeds": 5,
+          "per_seed_differences": [
+            -0.0674803038003255,
+            -0.018273349686200053,
+            0.03945270189798252,
+            -0.09380784236147156,
+            -0.01829125032152525
+          ],
+          "interpretation": "Student-t descriptive interval over 5 paired training seeds; not a preregistered significance test"
+        }
+      },
+      "bootstrap_first_seed_only": {
+        "seed": 7,
+        "paired_image_level_CI": {
+          "none_0.0": [
+            -0.011729066118709556,
+            0.0006959109425765011
+          ],
+          "noise_0.05": [
+            -0.06229004325928994,
+            -0.044937187120480816
+          ],
+          "noise_0.1": [
+            0.0,
+            0.0
+          ],
+          "blur_0.8": [
+            -0.026876599806286736,
+            -0.008344800554627529
+          ],
+          "blur_1.3": [
+            -0.38463484782147006,
+            -0.3502059843828817
+          ],
+          "contrast_0.75": [
+            0.0,
+            0.0
+          ],
+          "contrast_0.5": [
+            0.0,
+            0.0
+          ]
+        },
+        "paired_retention_CI": {
+          "noise_0.05": [
+            -0.05942379699209316,
+            -0.03679230872770916
+          ],
+          "noise_0.1": [
+            -0.0006959109425765024,
+            0.011729066118709554
+          ],
+          "blur_0.8": [
+            -0.020877813304410523,
+            -0.0025906612177866405
+          ],
+          "blur_1.3": [
+            -0.38065642729166677,
+            -0.341613754227831
+          ],
+          "contrast_0.75": [
+            -0.0006959109425765024,
+            0.011729066118709554
+          ],
+          "contrast_0.5": [
+            -0.0006959109425765024,
+            0.011729066118709554
+          ]
+        },
+        "resampling_unit": "images stratified by true class",
+        "warning": "Image bootstrap ignores within-writer dependence when writer IDs are unavailable"
+      }
+    },
+    "capacity_H2_vs_matched_flat": {
+      "method": "B2_hier_ce",
+      "control": "C_flat_matched",
+      "clean_worst_family_F1_difference": {
+        "mean": -0.0007666842356076842,
+        "sd": 0.0071833443575797335,
+        "ci_95": [
+          -0.009685984311114603,
+          0.008152615839899234
+        ],
+        "n_seeds": 5,
+        "per_seed_differences": [
+          -0.007768427824423996,
+          -0.0009180909029663509,
+          -0.0014695914439475377,
+          0.011098645970999299,
+          -0.004775956977699836
+        ],
+        "interpretation": "Student-t descriptive interval over 5 paired training seeds; not a preregistered significance test"
+      },
+      "condition_F1_differences": {
+        "none_0.0": {
+          "mean": -0.0007666842356076842,
+          "sd": 0.0071833443575797335,
+          "ci_95": [
+            -0.009685984311114603,
+            0.008152615839899234
+          ],
+          "n_seeds": 5,
+          "per_seed_differences": [
+            -0.007768427824423996,
+            -0.0009180909029663509,
+            -0.0014695914439475377,
+            0.011098645970999299,
+            -0.004775956977699836
+          ],
+          "interpretation": "Student-t descriptive interval over 5 paired training seeds; not a preregistered significance test"
+        },
+        "noise_0.05": {
+          "mean": -0.005270565073228583,
+          "sd": 0.006865196150399123,
+          "ci_95": [
+            -0.013794831973786264,
+            0.003253701827329098
+          ],
+          "n_seeds": 5,
+          "per_seed_differences": [
+            -0.015326929577115475,
+            -0.001530612244897959,
+            -0.009495283544129485,
+            0.0,
+            0.0
+          ],
+          "interpretation": "Student-t descriptive interval over 5 paired training seeds; not a preregistered significance test"
+        },
+        "noise_0.1": {
+          "mean": -0.0001806603134456438,
+          "sd": 0.0004039687417008788,
+          "ci_95": [
+            -0.0006822537564153016,
+            0.00032093312952401394
+          ],
+          "n_seeds": 5,
+          "per_seed_differences": [
+            -0.0009033015672282191,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "interpretation": "Student-t descriptive interval over 5 paired training seeds; not a preregistered significance test"
+        },
+        "blur_0.8": {
+          "mean": -0.04165160041297764,
+          "sd": 0.08087206111105885,
+          "ci_95": [
+            -0.1420675271551143,
+            0.05876432632915903
+          ],
+          "n_seeds": 5,
+          "per_seed_differences": [
+            -0.004368696339638656,
+            -0.16183056314417976,
+            -0.032366975381286855,
+            0.056524456190126804,
+            -0.06621622338990973
+          ],
+          "interpretation": "Student-t descriptive interval over 5 paired training seeds; not a preregistered significance test"
+        },
+        "blur_1.3": {
+          "mean": -0.026123706830791814,
+          "sd": 0.15658686984085413,
+          "ci_95": [
+            -0.22055198570359952,
+            0.16830457204201588
+          ],
+          "n_seeds": 5,
+          "per_seed_differences": [
+            0.09170816037040841,
+            -0.020947830105735865,
+            -0.221205120337451,
+            0.1574132767374421,
+            -0.13758702081862273
+          ],
+          "interpretation": "Student-t descriptive interval over 5 paired training seeds; not a preregistered significance test"
+        },
+        "contrast_0.75": {
+          "mean": 0.0768139893176539,
+          "sd": 0.16472684162176263,
+          "ci_95": [
+            -0.12772139946190247,
+            0.2813493780972103
+          ],
+          "n_seeds": 5,
+          "per_seed_differences": [
+            0.0,
+            0.014585184649199608,
+            -0.0005903187721369539,
+            0.37125087957702063,
+            -0.001175798865813769
+          ],
+          "interpretation": "Student-t descriptive interval over 5 paired training seeds; not a preregistered significance test"
+        },
+        "contrast_0.5": {
+          "mean": -0.0038795339042222016,
+          "sd": 0.005182537482350847,
+          "ci_95": [
+            -0.010314504115398835,
+            0.0025554363069544327
+          ],
+          "n_seeds": 5,
+          "per_seed_differences": [
+            0.0022239007040674185,
+            0.0009363588126970254,
+            -0.007727372259391964,
+            -0.009310166804312002,
+            -0.005520389974171486
+          ],
+          "interpretation": "Student-t descriptive interval over 5 paired training seeds; not a preregistered significance test"
+        }
+      },
+      "retention_differences": {
+        "noise_0.05": {
+          "mean": -0.004503880837620877,
+          "sd": 0.006451411846868474,
+          "ci_95": [
+            -0.012514366665462733,
+            0.003506604990220978
+          ],
+          "n_seeds": 5,
+          "per_seed_differences": [
+            -0.00755850175269146,
+            -0.0006125213419315712,
+            -0.008025692100181891,
+            -0.011098645970999299,
+            0.004775956977699836
+          ],
+          "interpretation": "Student-t descriptive interval over 5 paired training seeds; not a preregistered significance test"
+        },
+        "noise_0.1": {
+          "mean": 0.000586023922162049,
+          "sd": 0.006971462108144185,
+          "ci_95": [
+            -0.008070189592362317,
+            0.009242237436686417
+          ],
+          "n_seeds": 5,
+          "per_seed_differences": [
+            0.006865126257195819,
+            0.0009180909029663509,
+            0.0014695914439475377,
+            -0.011098645970999299,
+            0.004775956977699836
+          ],
+          "interpretation": "Student-t descriptive interval over 5 paired training seeds; not a preregistered significance test"
+        },
+        "blur_0.8": {
+          "mean": -0.04088491617736996,
+          "sd": 0.07800570323353599,
+          "ci_95": [
+            -0.1377417895370187,
+            0.055971957182278806
+          ],
+          "n_seeds": 5,
+          "per_seed_differences": [
+            0.00339973148478534,
+            -0.1609124722412134,
+            -0.030897383937339318,
+            0.045425810219127505,
+            -0.0614402664122099
+          ],
+          "interpretation": "Student-t descriptive interval over 5 paired training seeds; not a preregistered significance test"
+        },
+        "blur_1.3": {
+          "mean": -0.02535702259518413,
+          "sd": 0.15363295674263522,
+          "ci_95": [
+            -0.21611753392011088,
+            0.16540348872974261
+          ],
+          "n_seeds": 5,
+          "per_seed_differences": [
+            0.0994765881948324,
+            -0.020029739202769514,
+            -0.21973552889350345,
+            0.1463146307664428,
+            -0.1328110638409229
+          ],
+          "interpretation": "Student-t descriptive interval over 5 paired training seeds; not a preregistered significance test"
+        },
+        "contrast_0.75": {
+          "mean": 0.07758067355326156,
+          "sd": 0.15805873995851122,
+          "ci_95": [
+            -0.1186751734546729,
+            0.273836520561196
+          ],
+          "n_seeds": 5,
+          "per_seed_differences": [
+            0.007768427824423996,
+            0.015503275552165907,
+            0.0008792726718105381,
+            0.36015223360602133,
+            0.003600158111886076
+          ],
+          "interpretation": "Student-t descriptive interval over 5 paired training seeds; not a preregistered significance test"
+        },
+        "contrast_0.5": {
+          "mean": -0.0031128496686145144,
+          "sd": 0.011303429656417877,
+          "ci_95": [
+            -0.01714791132921736,
+            0.010922211991988333
+          ],
+          "n_seeds": 5,
+          "per_seed_differences": [
+            0.009992328528491412,
+            0.0018544497156633977,
+            -0.00625778081544448,
+            -0.020408812775311258,
+            -0.0007444329964716445
+          ],
+          "interpretation": "Student-t descriptive interval over 5 paired training seeds; not a preregistered significance test"
+        }
+      },
+      "bootstrap_first_seed_only": {
+        "seed": 7,
+        "paired_image_level_CI": {
+          "none_0.0": [
+            -0.01497049211486214,
+            -0.001130483119401494
+          ],
+          "noise_0.05": [
+            -0.01970052748942504,
+            -0.01103573946599522
+          ],
+          "noise_0.1": [
+            -0.0009108439617403352,
+            -0.0008962624758966288
+          ],
+          "blur_0.8": [
+            -0.01199245484470426,
+            0.004629469397350446
+          ],
+          "blur_1.3": [
+            0.07460071047593113,
+            0.10816201012327817
+          ],
+          "contrast_0.75": [
+            0.0,
+            0.0
+          ],
+          "contrast_0.5": [
+            0.0004926108374384236,
+            0.0043619414255587075
+          ]
+        },
+        "paired_retention_CI": {
+          "noise_0.05": [
+            -0.016026937043710623,
+            0.0012774170801855228
+          ],
+          "noise_0.1": [
+            0.00022716208232588801,
+            0.014066906196931685
+          ],
+          "blur_0.8": [
+            -0.005310087961159429,
+            0.011299425408792743
+          ],
+          "blur_1.3": [
+            0.08203131228473928,
+            0.11720340079358782
+          ],
+          "contrast_0.75": [
+            0.001130483119401493,
+            0.014970492114862137
+          ],
+          "contrast_0.5": [
+            0.0030853403944490153,
+            0.0175451755162917
+          ]
+        },
+        "resampling_unit": "images stratified by true class",
+        "warning": "Image bootstrap ignores within-writer dependence when writer IDs are unavailable"
+      }
+    }
+  },
+  "bootstrap_design": "stratified with replacement independently within each of 38 ground-truth labels, paired between model predictions",
+  "seed_interval_design": "Student-t on model-paired results from independent training seeds; results from data bootstrap reported separately"
+}

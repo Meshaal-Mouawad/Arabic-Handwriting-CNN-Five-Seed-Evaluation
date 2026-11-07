@@ -1,0 +1,16 @@
+{
+  "digits": {
+    "first_n_rows": 256,
+    "normalized_corner_mean": 0.0,
+    "decision": "dark_background",
+    "invert_to_dark_background": false,
+    "rule": "raw train-set corner pixels first 256 rows; mean <.20 is dark, >.80 is bright, otherwise stop"
+  },
+  "letters": {
+    "first_n_rows": 256,
+    "normalized_corner_mean": 0.0,
+    "decision": "dark_background",
+    "invert_to_dark_background": false,
+    "rule": "raw train-set corner pixels first 256 rows; mean <.20 is dark, >.80 is bright, otherwise stop"
+  }
+}

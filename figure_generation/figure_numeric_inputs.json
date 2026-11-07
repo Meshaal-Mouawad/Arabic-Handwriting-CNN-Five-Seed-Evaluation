@@ -1,0 +1,53 @@
+{
+  "figure2": {
+    "rows": [
+      "Family balancing: B1 \u2212 B0",
+      "Hierarchy, pooled: B2 \u2212 B0",
+      "Hierarchy, balanced: B3 \u2212 B1",
+      "Clean diagnostic: P \u2212 B3",
+      "Parameter-count control: B2 \u2212 C"
+    ],
+    "means_percentage_points": [
+      0.2115984675951399,
+      0.053537640999756775,
+      -0.05250790949474116,
+      -0.02415275695022645,
+      -0.07666842356076842
+    ],
+    "intervals_percentage_points": [
+      [
+        -0.7560921048555627,
+        1.1792890400458425
+      ],
+      [
+        -1.3695475566044462,
+        1.4766228386039597
+      ],
+      [
+        -1.2574271860071813,
+        1.1524113670176988
+      ],
+      [
+        -1.4178356150138407,
+        1.3695301011133876
+      ],
+      [
+        -0.9685984311114603,
+        0.8152615839899233
+      ]
+    ]
+  },
+  "figure3": {
+    "conditions": [
+      "none_0.0",
+      "noise_0.05",
+      "noise_0.1",
+      "blur_0.8",
+      "blur_1.3",
+      "contrast_0.75",
+      "contrast_0.5"
+    ],
+    "metric": "worst_family_macro_f1",
+    "aggregation": "arithmetic mean over five seeds"
+  }
+}

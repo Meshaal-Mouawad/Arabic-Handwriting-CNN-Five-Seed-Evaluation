@@ -1,0 +1,8 @@
+cff-version: 1.2.0
+message: "If you use this software or evidence, please cite the associated manuscript."
+title: "Family Balancing and Hierarchical CNNs for Arabic Handwritten Symbols: A Controlled Five-Seed Evaluation"
+authors:
+  - family-names: Mouawad
+    given-names: Meshaal
+repository-code: "https://github.com/Meshaal-Mouawad/Arabic-Handwriting-CNN-Five-Seed-Evaluation"
+type: software

@@ -1,0 +1,22 @@
+epoch 001: train loss 0.5566 | val worst-F1 0.0047 | digit 0.4665 | letter 0.0047
+epoch 002: train loss 0.1345 | val worst-F1 0.7967 | digit 0.9882 | letter 0.7967
+epoch 003: train loss 0.0868 | val worst-F1 0.8323 | digit 0.9642 | letter 0.8323
+epoch 004: train loss 0.0698 | val worst-F1 0.9365 | digit 0.9906 | letter 0.9365
+epoch 005: train loss 0.0597 | val worst-F1 0.9044 | digit 0.9930 | letter 0.9044
+epoch 006: train loss 0.0519 | val worst-F1 0.9150 | digit 0.9885 | letter 0.9150
+epoch 007: train loss 0.0492 | val worst-F1 0.5145 | digit 0.9341 | letter 0.5145
+epoch 008: train loss 0.0436 | val worst-F1 0.9017 | digit 0.9818 | letter 0.9017
+epoch 009: train loss 0.0406 | val worst-F1 0.8668 | digit 0.9268 | letter 0.8668
+epoch 010: train loss 0.0385 | val worst-F1 0.1117 | digit 0.8578 | letter 0.1117
+epoch 011: train loss 0.0372 | val worst-F1 0.0038 | digit 0.8612 | letter 0.0038
+epoch 012: train loss 0.0362 | val worst-F1 0.9530 | digit 0.9930 | letter 0.9530
+epoch 013: train loss 0.0331 | val worst-F1 0.9557 | digit 0.9945 | letter 0.9557
+epoch 014: train loss 0.0321 | val worst-F1 0.8724 | digit 0.9699 | letter 0.8724
+epoch 015: train loss 0.0307 | val worst-F1 0.9390 | digit 0.9919 | letter 0.9390
+epoch 016: train loss 0.0301 | val worst-F1 0.9545 | digit 0.9962 | letter 0.9545
+epoch 017: train loss 0.0271 | val worst-F1 0.9572 | digit 0.9953 | letter 0.9572
+epoch 018: train loss 0.0266 | val worst-F1 0.9511 | digit 0.9934 | letter 0.9511
+epoch 019: train loss 0.0252 | val worst-F1 0.1407 | digit 0.9049 | letter 0.1407
+epoch 020: train loss 0.0241 | val worst-F1 0.9015 | digit 0.9764 | letter 0.9015
+
+# subprocess exit code: 0; wall_seconds: 230.14

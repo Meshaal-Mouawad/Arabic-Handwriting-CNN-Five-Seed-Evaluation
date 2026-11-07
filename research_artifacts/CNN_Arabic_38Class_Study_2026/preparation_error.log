@@ -1,0 +1,33 @@
+Pretraining background normalization: {'digits': 'RETAIN', 'letters': 'RETAIN'}
+
+
+/content/cnn_stage4_code/research_code/prepare_canonical_csv.py:63: DeprecationWarning: 'mode' parameter is deprecated and will be removed in Pillow 13 (2026-10-15)
+  resized[i]=np.asarray(Image.fromarray(arr,mode='L').resize((64,64),resample=Image.Resampling.BILINEAR))
+Traceback (most recent call last):
+  File "/content/cnn_stage4_code/research_code/prepare_canonical_csv.py", line 176, in <module>
+    if __name__=='__main__':cli()
+                            ~~~^^
+  File "/content/cnn_stage4_code/research_code/prepare_canonical_csv.py", line 175, in cli
+    run(args)
+    ~~~^^^^^^
+  File "/content/cnn_stage4_code/research_code/prepare_canonical_csv.py", line 110, in run
+    if num:raise ValueError(f'{num} exact same processed image(s) across {a} and {b}; investigate potential leakage before using outputs')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: 1275 exact same processed image(s) across train and val; investigate potential leakage before using outputs
+Traceback (most recent call last):
+  File "/content/cnn_stage4_code/run_real_experiment.py", line 211, in <module>
+    if __name__=='__main__':main()
+                            ~~~~^^
+  File "/content/cnn_stage4_code/run_real_experiment.py", line 197, in main
+    prepared,audit=ensure_data(args.root,acquire=args.phase=='prepare')
+                   ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/content/cnn_stage4_code/run_real_experiment.py", line 43, in ensure_data
+    prepare(root,ROOT_CODE)
+    ~~~~~~~^^^^^^^^^^^^^^^^
+  File "/content/cnn_stage4_code/dataset_acquisition.py", line 198, in prepare
+    subprocess.run(prep,check=True,cwd=code_dir)
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.13/subprocess.py", line 578, in run
+    raise CalledProcessError(retcode, process.args,
+                             output=stdout, stderr=stderr)
+subprocess.CalledProcessError: Command '['/usr/bin/python3', '/content/cnn_stage4_code/research_code/prepare_canonical_csv.py', '--digits-train-images', '/content/drive/MyDrive/CNN_Arabic_38Class_Study_2026/digits_original_csv/csvTrainImages 60k x 784.csv', '--digits-train-labels', '/content/drive/MyDrive/CNN_Arabic_38Class_Study_2026/digits_original_csv/csvTrainLabel 60k x 1.csv', '--digits-test-images', '/content/drive/MyDrive/CNN_Arabic_38Class_Study_2026/digits_original_csv/csvTestImages.csv', '--digits-test-labels', '/content/drive/MyDrive/CNN_Arabic_38Class_Study_2026/digits_original_csv/csvTestLabel 10k x 1.csv', '--letters-train-images', '/content/drive/MyDrive/CNN_Arabic_38Class_Study_2026/letters_original_csv/csvTrainImages 13440x1024.csv', '--letters-train-labels', '/content/drive/MyDrive/CNN_Arabic_38Class_Study_2026/letters_original_csv/csvTrainLabel 13440x1.csv', '--letters-test-images', '/content/drive/MyDrive/CNN_Arabic_38Class_Study_2026/letters_original_csv/csvTestImages 3360x1024.csv', '--letters-test-labels', '/content/drive/MyDrive/CNN_Arabic_38Class_Study_2026/letters_original_csv/csvTestLabel 3360x1.csv', '--out', '/content/drive/MyDrive/CNN_Arabic_38Class_Study_2026/prepared_canonical', '--validation-fraction', '0.15', '--seed', '2026', '--letters-transpose']' returned non-zero exit status 1.

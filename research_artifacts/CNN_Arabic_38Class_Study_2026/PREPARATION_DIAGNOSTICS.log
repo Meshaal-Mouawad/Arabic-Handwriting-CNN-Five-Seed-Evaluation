@@ -1,0 +1,19 @@
+COMMAND: ['/usr/bin/python3', '-u', '/content/cnn_stage4_code/run_real_experiment.py', '--root', '/content/drive/MyDrive/CNN_Arabic_38Class_Study_2026', '--phase', 'prepare']
+EXIT: 0
+
+=== STDOUT ===
+[prepare] Starting source acquisition and hash verification...
+[prepare] Processing digits...
+[digits] Cached original source verified (13,911,478 bytes)
+[prepare] digits: validated extracted original CSVs
+[prepare] Processing letters...
+[letters] Cached original source verified (3,181,704 bytes)
+[prepare] letters: validated extracted original CSVs
+[prepare] Computing image polarity checks...
+Pretraining background normalization: {'digits': 'RETAIN', 'letters': 'RETAIN'}
+Prepared dataset already exists; run standalone integrity audit before reusing.
+RUN: /usr/bin/python3 /content/cnn_stage4_code/research_code/audit_partitions.py --train /content/drive/MyDrive/CNN_Arabic_38Class_Study_2026/prepared_canonical/train.npz --val /content/drive/MyDrive/CNN_Arabic_38Class_Study_2026/prepared_canonical/val.npz --test /content/drive/MyDrive/CNN_Arabic_38Class_Study_2026/prepared_canonical/untouched_test.npz --manifest /content/drive/MyDrive/CNN_Arabic_38Class_Study_2026/prepared_canonical/source_and_split_manifest.json --out /content/drive/MyDrive/CNN_Arabic_38Class_Study_2026/partition_integrity_audit.json
+PASS integrity gate: all 38 labels represented; no cross-partition identical images
+DATA PREPARED AND AUDITED. Inspect orientation preview before full execution.
+
+=== STDERR ===
